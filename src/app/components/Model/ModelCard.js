@@ -7,7 +7,7 @@ const ModelCard = ({ modelos }) => {
     return (
         <Row>
             {modelos.map((Modelo) => (
-                <Col md={{ span: 4 }} key={Modelo.id}>
+                <Col md={4} key={Modelo.id}>
                     <Card>
                         <Card.Body>
                             <Model rutaModelo={Modelo.url}></Model>

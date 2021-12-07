@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ModelCard from '../components/Model/ModelCard';
+import { Container } from 'react-bootstrap';
 import './Store.css'
 
 export default class Store extends Component {
@@ -22,9 +23,9 @@ export default class Store extends Component {
     }
     render() {
         return (
-            <div className="product-container">
+            <Container fluid className="product-container">
                 <ModelCard modelos={this.state.modelos} />
-            </div>
+            </Container>
         )
     }
 

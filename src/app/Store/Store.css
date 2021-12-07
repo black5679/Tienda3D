@@ -1,5 +1,7 @@
 .product-container{
     padding-top: 100px;
-    width: 100%;
-    position: fixed;
+}
+
+.row{
+    margin-left: 0;
 }
