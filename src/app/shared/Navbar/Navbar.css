@@ -1,0 +1,56 @@
+.btn-border-none {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.fa-search {
+  color: black;
+}
+
+.search-bar-box {
+  vertical-align: middle;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.transparent {
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+/* .main-bg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 790px;
+    padding-top: 60px;
+    padding-bottom: 200px;
+    background: linear-gradient(45deg,#19295a,#2ec3fb);
+    overflow: hidden;
+} */
+
+.navbar-toggler {
+  font-size: 15px;
+}
+
+.bg-purple {
+  position: fixed;
+  width: 100%;
+  background: #7133ff;
+  transition: 0.4s;
+}
+
+.bg-transparent {
+  position: fixed;
+  background: transparent;
+  width: 100%;
+  transition: 0.4s;
+}
+
+.navbar {
+  z-index: 1000;
+}
